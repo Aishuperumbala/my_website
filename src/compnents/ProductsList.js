@@ -32,6 +32,7 @@ function ProductLists() {
       const isCartExists = carts.some((cart) => cart.id === parseInt(cartId));
       if (!isCartExists) {
         localStorage.removeItem("cartId");
+        cartId = null;
       }
       if (!cartId || cartId === "undefined") {
         const cart = await createCart();

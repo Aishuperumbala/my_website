@@ -64,7 +64,7 @@ export const addItemsCart = async ({ cartId, productId, quantity }) => {
 
   try {
     const response = await axios.post(
-      `${BASE_URL}/cart/add/${cartId}?cartId=${cartId}&product_id=${productId}&quantity=${quantity}`
+      `${BASE_URL}/cart/add/${cartId}?product_id=${productId}&quantity=${quantity}`
     );
     console.log("add item2222", response.data);
     return response.data;

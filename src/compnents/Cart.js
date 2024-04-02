@@ -59,9 +59,10 @@ function Cart() {
   };
 
 
-  const deleteCart = async (id) => {
+  const deleteCart = async () => {
     try {
-      await DeleteCart({ id });
+      await DeleteCart();
+      window.location.reload();
       //setItems(items.filter((item) => item.id !== id));
     } catch (error) {
       console.error("Error deleting item:", error);
@@ -117,7 +118,7 @@ function Cart() {
         >
           Shopping Basket
         </h1>
-        <button style={{  marginRight: "5px"  }} onClick={() => deleteCart(items.id)}>Clear Cart</button>
+        <button style={{  marginRight: "5px"  }} onClick={() => deleteCart()}>Clear Cart</button>
       </div>
       <Table responsive striped bordered hover>
         <thead>

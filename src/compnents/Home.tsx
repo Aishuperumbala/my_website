@@ -49,7 +49,7 @@ function Home() {
               className="d-block w-100"
               src={product.products_image}
               alt={`Slide ${index + 1}`}
-              style={{ maxHeight: "700px", objectFit: "contain" }}
+              style={{ maxHeight: "800px", objectFit: "contain" }}
             />
             <Carousel.Caption>
               <h3 style={{ color: "black" }}>{product.product_name}</h3>

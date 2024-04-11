@@ -8,7 +8,6 @@ interface ProductProps {
     product_name: string;
     price: number;
     products_image: string;
-    // Add any other properties of the product here
   };
   addToCart: (productId: string, quantity: number) => void;
 }

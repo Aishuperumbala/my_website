@@ -11,7 +11,6 @@ interface CartItemsProps {
       product_id: number;
       product_name: string;
       products_image: string;
-      // Add any other properties of the product here
     }[];
   }[];
   deleteCartItem: (itemId: number) => void;

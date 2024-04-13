@@ -12,7 +12,7 @@
   npm i -g create-react-app
   ```
    **Note :** This is one time installation for the device
-- Create React app 
+- Create react app 
   ```
   create-react-app app_name
   ```
@@ -27,5 +27,5 @@ npm start
 ```
 npm run build
 ```
-### Additional Information
+### Additional Infromation
 To install Node.js via binary archive on Linux use  [Link](https://github.com/nodejs/help/wiki/Installation#how-to-install-nodejs-via-binary-archive-on-linux)

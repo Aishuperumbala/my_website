@@ -1,9 +1,9 @@
 ## Description
 
 ### Installation
- - Install [Node.Js](https://nodejs.org/en/download)
+ - Install [Node.js](https://nodejs.org/en/download)
    
- - Confirm Node.Js installation
+ - Confirm Node.js installation
    ```
    node -v
    ```

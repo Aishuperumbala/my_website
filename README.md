@@ -1,9 +1,9 @@
 ## Description
 
 ### Installation
- - Install [NodeJs](https://nodejs.org/en/download)
+ - Install [Node.Js](https://nodejs.org/en/download)
    
- - Confirm NodeJs installation
+ - Confirm Node.Js installation
    ```
    node -v
    ```
@@ -19,7 +19,7 @@
  **Note :** Replace the app_name with the desired app name
 
 ### Run UI
-- Developent mode 
+- Development mode 
 ```
 npm start
 ```
